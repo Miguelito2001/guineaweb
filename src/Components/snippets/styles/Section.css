@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.home-section{
+    height:calc( 100vh - 60px) !important;
+    /* height: 700px; */
+    width: 100%;
+        /* Imagen de fondo + gradient semi-transparente */
+        background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(80, 80, 80, 0.5)),
+        url('../../../assets/Image-to-Video-Vidu-AI-2.gif');
+    
+    background-size: cover; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centra la imagen */
+    color: white;
+    z-index: 1;
+    transition: 0.7s;
+}
+
+.home-section .presentation-letters {
+    width: 500px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-section .presentation-letters .about-letters {
+    border-left: 3px solid white;
+    padding: 10px;
+}
+
+.home-section .presentation-letters h2 {
+    font-family: "Lilita One", sans-serif;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(230, 233, 250);
+    margin-top: 100px;
+}
+
+.home-section .presentation-letters .about-letters h5 {
+    font-size: 30px;
+    font-weight: bold !important;
+    color: white;
+}
+
+.home-section .presentation-letters .about-letters p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.home-section .presentation-letters .btn-primary {
+    margin-top: 40px;
+    height: 40px;
+    width: 170px;
+}
+
+.home-section .presentation-letters .home-section-footer{
+    margin-bottom: auto;position: fixed;
+    bottom: 40px;
+}
+
+.home-section .presentation-letters .home-section-footer ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.home-section .presentation-letters .home-section-footer ul li a{
+    transition: margin-bottom 0.3s ease; /* Suaviza la animación */
+}
+
+.home-section .presentation-letters .home-section-footer ul li a:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+.home-section .presentation-letters .home-section-footer ul li i{
+    font-size: 50px;
+    transition: 0.8s;
+}
